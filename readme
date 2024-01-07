@@ -1,0 +1,13 @@
+Any duck that inherits from DUck will always have the swim, fly and quack behavior, but was our program grows
+we will be creating more sublasses and it wouldnt make sense for us to continually overide functions in subclasses that does not need such function
+
+remember things that chages most in our codes needs to be isolated, so we isolate those behaviors/methods that are constantly changing accross subclasses into interface
+so were going to build on those interface, we cannot build on implementations, don't ever do it
+
+So this time it won’t be the Duck classes that will implement the
+flying and quacking interfaces. Instead, we’ll make a set of classes
+whose entire reason for living is to represent a behavior (for example,
+“squeaking”), and IT IS the behavior class, rather than the Duck class,
+that will implement the behavior interface.
+
+I know classes are meant to represent things or objects, but we can also use them to represent functionslities or behaviors, since they have state and methods too
